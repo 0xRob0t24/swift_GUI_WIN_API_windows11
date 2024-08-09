@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:WindowProc}",
+            "name": "Debug WindowProc",
+            "program": "${workspaceFolder:WindowProc}\\.build\\debug\\WindowProc.exe",
+            "preLaunchTask": "swift: Build Debug WindowProc"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:WindowProc}",
+            "name": "Release WindowProc",
+            "program": "${workspaceFolder:WindowProc}\\.build\\release\\WindowProc.exe",
+            "preLaunchTask": "swift: Build Release WindowProc"
+        }
+    ]
+}
